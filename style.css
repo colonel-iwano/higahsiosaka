@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0 3rem;
+}
+
+header h1{
+    color: #111;
+    font-size: 24px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav ul li{
+    list-style: none;
+    margin-left: 5rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #111;
+}
+
+.mainvisual{
+    height: 90vh;
+    background: url(./img/caption.jpg) no-repeat;
+    background-position: right top;
+    background-size: 80vw 45vw;
+}
+
+.main-title{
+    padding-top: 10%;
+}
+
+.mainvisual h1{
+    font-size: 36px;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    padding: 1rem 2rem;
+   color: #f7f6f5;
+   background: #031059;
+
+}
